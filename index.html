@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ementor - main</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="screen__full-screen background_green">
+        <header class="header">
+            <nav class="header__nav-menu nav-menu container">
+                <div class="nav-menu__container display_flex flex-wrap_nowrap justify_center">
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">О нас</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Платформа</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Курсы</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Лекции</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Тарифы</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Блог</a>
+                    </div>
+                    <div class="nav-menu__item">
+                        <a class="nav-menu__link link__text color_white hover_dark">Контакты</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="header__nav-menu_hidden burger-menu container text-align_center">
+                <div class="burger-menu__menu p-relative">
+                    <button class="burger-menu__button">
+                        <div class="burger-menu__menu-container display_flex flex-direction_column align-items_center p-absolute">
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    О нас
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Платформа
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Курсы
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Лекции
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Тарифы 
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Блог
+                                </p>
+                            </a>
+                            <a href="" class="burger-menu__menu-item">
+                                <p class="menu-item__text">
+                                    Контакты
+                                </p>
+                            </a>
+                        </div>
+                        <img src="images/header/burger-menu/burger-menu-icon.png" alt="Menu button" class="burger-menu__icon">
+                    </button>
+                    
+                </div>
+            </nav>
+        </header>
+        <section class="header__header-container header-container display_flex flex-wrap_wrap justify_between align-items_center container p-relative">
+            <div class="header-container__image-container-left image-container align-self_flex-end p-relative">
+                <img src="images/header/__container/photo1.png" alt="Photo" class="image-container__image p-relative">
+                <img src="images/header/__container/dashed1.png" alt="Photo" class="image-container__background-contour image-container__contour-right-sided    p-absolute">
+            </div>
+            <div class="header-container__title-container title text-align_center">
+                <div class="title__logo-container logo-container text-align_center">
+                    <img src="images/header/__container/logotype.svg" alt="Logotype" class="logo">
+                </div>
+                <div class="title__title-box text-align_center margin_x-auto">
+                    <h1 class="main-title text__title color_white">
+                        Образовательная<br> онлайн-платформа
+                    </h1>
+                </div>
+                <div class="title__description title__description_narrow text-align_center">
+                    <p class="color_white">Курсы и видео-лекции по дизайну, копирайтингу,
+                        SMM, таргету и многим другим направлениям</p>
+                </div>
+                <div class="title__action-link action-link text-align_center p-relative">
+                    <a href="#" class="header-container__link action-link__link-container background_orange color_white hover_dark">
+                        <p class="link__text">
+                            Все направления
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="header-container__image-container-right image-container align-self_flex-start p-relative">
+                <img src="images/header/__container/photo2.png" alt="Photo" class="image-container__image p-relative">
+                <img src="images/header/__container/dashed2.png" alt="Photo" class="image-container__background-contour image-container__contour-left-sided    p-absolute">
+            </div>
+            <div class="header__header-socials header-socials p-absolute">
+                <div class="header-socials__container">
+                    <div class="header-socials__icon-container">
+                        <a href="#" class="link">
+                            <img src="images/header/__header-socials/fb.svg" alt="Facebook" class="header__social-icon">
+                        </a>
+                    </div>
+                    <div class="header-socials__icon-container">
+                        <a href="#" class="link">
+                            <img src="images/header/__header-socials/vk.svg" alt="VKontakte" class="header__social-icon">
+                        </a>
+                    </div>
+                    <div class="header-socials__icon-container">
+                        <a href="#" class="link">
+                            <img src="images/header/__header-socials/im.svg" alt="Instagramm" class="header__social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__pointer-down pointer-down p-absolute">
+                <div class="pointer-down__container">
+                    <a href="#index-main" class="pointer-down__link">
+                        <p class="pointer-down__text text__description color_white hover_dark rotate-90deg">Листайте вниз</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <main id="index-main" class="main">
+        <section  class="block__numbers block row-items-section background_white">
+            <div class="row-items-section__row-items-container_no-paddings display_flex justify_between flex-wrap container">
+                <div class="row-items-section__row-item-1to4-container row-item-container">
+                    <div class="row-item-container__item">
+                        <div class="row-item-container__item-title-container text-align_center">
+                            <p class="row-item-container__item-title text__title color_green">
+                                100+
+                            </p>
+                        </div>
+                        <div class="row-item-container__item-text-container text-align_center">
+                            <p class="row-item-container__item-text text__description">
+                                теоретических и практических
+                                курсов для разного уровня
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-items-section__row-item-1to4-container row-item-container">
+                    <div class="row-item-container__item">
+                        <div class="row-item-container__item-title-container text-align_center">
+                            <p class="row-item-container__item-title text__title color_green">
+                                3 000
+                            </p>
+                        </div>
+                        <div class="row-item-container__item-text-container text-align_center">
+                            <p class="row-item-container__item-text text__description">
+                                часов видео-лекций и вебинаров от лучших преподавателей
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-items-section__row-item-1to4-container row-item-container">
+                    <div class="row-item-container__item">
+                        <div class="row-item-container__item-title-container text-align_center">
+                            <p class="row-item-container__item-title text__title color_green">
+                                15
+                            </p>
+                        </div>
+                        <div class="row-item-container__item-text-container text-align_center">
+                            <p class="row-item-container__item-text text__description">
+                                направлений обучения востребованным профессиям
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-items-section__row-item-1to4-container row-item-container">
+                    <div class="row-item-container__item">
+                        <div class="row-item-container__item-title-container text-align_center">
+                            <p class="row-item-container__item-title text__title color_green">
+                                2 000
+                            </p>
+                        </div>
+                        <div class="row-item-container__item-text-container text-align_center">
+                            <p class="row-item-container__item-text text__description">
+                                учеников уже занимаются на нашей платформе
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section class="teachers__block row-items-section">
+            <div class="teachers__row-items-section row-items-section__row-items-container display_flex align-items_center container">
+                <div class="content-container__text-content-box text-content-box">
+                    <div class="text-content-box__title-container title">
+                        <div class="title__title-box">
+                            <h2 class="main-title text__title">
+                                Учитесь у лучших
+                            </h2>
+                        </div>
+                        <div class="title__description title__description_wide">
+                            <p class="">Наши преподаватели – профессионалы, которые добились успеха в своей области. Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа: получайте опыт из первых рук, в любое время.
+                            Кураторы курсов – наши лучшие выпускники, будут помогать и поддерживать вас на протяжении всего обучения. </p>
+                        </div>
+                        <div class="title__action-link action-link">
+                            <a href="#" class="action-link__link-container background_green color_white hover_dark text-align_center">
+                                <p class="link__text">
+                                    Все преподаватели
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container__images-content-box images-content-box">
+                    <div class="images-content-box__images-tile-container images-tile display_flex flex-wrap justify_flex-end">
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/1x1.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Катя, ведущий дизайнер TailGroup
+                            </div>
+                        </div>
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/1x2.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Марина, маркетолог Headers Market
+                            </div>
+                        </div>
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/1x3.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Сава, PR-менеджер Central Media
+                            </div>
+                        </div>
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/2x1.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Паша, основатель LeadCompany
+                            </div>
+                        </div>
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/2x2.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Саша, главный редактор Just Journal
+                            </div>
+                        </div>
+                        <div class="images-tile__item">
+                            <div class="images-tile__image-container">
+                                <img src="images/main/block/__teachers/images-tile/__image-container/2x3.png" alt="Photo of Teacher" class="images-tile__image">
+                            </div>
+                            <div class="images-tile__text-container text__description text-align_center">
+                                Лёня, ведущий разработчик Ymail
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="format__block row-items-section background_green">
+            <div class="row-items-section__row-items-container display_flex flex-direction_row-reverse align-items_center container justify_between">
+                <div class="content-container__text-content-box text-content-box">
+                    <div class="text-content-box__title-container title color_white">
+                        <div class="title__title-box">
+                            <h2 class="main-title text__title">
+                                Учитесь у лучших
+                            </h2>
+                        </div>
+                        <div class="title__description title__description_wide">
+                            <p class="">Наши преподаватели – профессионалы, которые добились успеха в своей области. Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа: получайте опыт из первых рук, в любое время.
+                            Кураторы курсов – наши лучшие выпускники, будут помогать и поддерживать вас на протяжении всего обучения. </p>
+                        </div>
+                        <div class="title__action-link action-link">
+                            <a href="#" class="action-link__link-container background_orange color_white hover_dark text-align_center">
+                                <p class="link__text">
+                                    Все курсы
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="images-container__images-content-box images-content-box">
+                    <div class="images-content-box__image-container image-container p-relative">
+                        <img src="images/main/block/__format/images-content-box/image-container/image/format-image.png" alt="Photo" class="image-container__image p-relative">
+                        <img src="images/main/block/__format/images-content-box/image-container/image/dash-line.png" alt="Photo" class="image-container__background-contour image-container__contour-right-sided p-absolute">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="courses-block__block block">
+            <div class="courses-block__container container">
+                <div class="courses-block__items row-items-section__row-items-container">
+                    <div class="courses-block__item_mb-60px title__title-box text-align_center margin_x-auto">
+                        <h2 class="main-title text__title">
+                            Популярные курсы
+                        </h2>
+                    </div>
+                    <div class="courses-block__item_mb-60px row-items-section__row-items-container_no-paddings display_flex flex-wrap_wrap justify_between container">
+                        <a class="row-items-section__row-item-1to4-container row-item-container box-shadow_custom hover_dark-shadow">
+                            <div class="row-item-container__item">
+                                <div class="item__image-container">
+                                    <img src="images/main/block/__courses/image-container/image/pic1.png" alt="Picture" class="item__image">
+                                </div>
+                                <div class="item__text-container">
+                                    <p class="text-container__text text">
+                                        Motion design
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="row-items-section__row-item-1to4-container row-item-container box-shadow_custom hover_dark-shadow">
+                            <div class="row-item-container__item">
+                                <div class="item__image-container">
+                                    <img src="images/main/block/__courses/image-container/image/pic2.png" alt="Picture" class="item__image">
+                                </div>
+                                <div class="item__text-container">
+                                    <p class="text-container__text text">
+                                        Таргет в Instagram
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="row-items-section__row-item-1to4-container row-item-container box-shadow_custom hover_dark-shadow">
+                            <div class="row-item-container__item">
+                                <div class="item__image-container">
+                                    <img src="images/main/block/__courses/image-container/image/pic3.png" alt="" class="item__image">
+                                </div>
+                                <div class="item__text-container">
+                                    <p class="text-container__text text">
+                                        Эффектные презентации
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="row-items-section__row-item-1to4-container row-item-container box-shadow_custom hover_dark-shadow">
+                            <div class="row-item-container__item item">
+                                <div class="item__image-container">
+                                    <img src="images/main/block/__courses/image-container/image/pic4.png" alt="Picture" class="item__image">
+                                </div>
+                                <div class="item__text-container">
+                                    <p class="text-container__text text">
+                                        SMM-стратегия
+                                    </p>
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                    <div class="courses-block__item title__action-link action-link text-align_center">
+                        <a href="#" class="action-link__link-container background_green color_white hover_dark">
+                            <p class="link__text">
+                                Все направления
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner__block">
+            <div class="row-items-section__row-items-container display_flex flex-direction_row-reverse align-items_center container justify_between">
+                <div class="content-container__text-content-box content-container__text-content-box_shadow-box text-content-box">
+                    <div class="text-content-box__title-container title">
+                        <div class="title__title-box">
+                            <h2 class="main-title text__title">
+                                Присоединяйтесь к E-Mentor сейчас
+                            </h2>
+                        </div>
+                        <div class="title__description title__description_wide">
+                            <p>
+                                Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы подарим вам дополнительные лекции по любому направлению бесплатно!
+                            </p>
+                        </div>
+                        <div class="title__action-link action-link">
+                            <a href="#" class="action-link__link-container background_orange color_white hover_dark text-align_center">
+                                <p class="link__text">
+                                    Все курсы
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer color_dark">
+        <div class="footer-block_top">
+            <div class="footer__footer-container footer-container display_flex flex-wrap_wrap justify_between container">
+                <div class="footer__content footer-content display_flex flex-direction_column justify_between">
+                    <div class="footer-content_top">
+                        <div class="footer-content__logo logo-container">
+                            <img src="images/footer/logo/logotype.svg" alt="Logotype" class="logo">
+                        </div>
+                        <div class="footer-content__text text-container">
+                            <p class="text__description">
+                                Образовательная онлайн-платформа для развития и тренировки навыков
+                                в сфере информационных технологий
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-content_bottom">
+                        <div class="footer-content__socials socials-container display_flex justify_between">
+                            <div class="socials-container__icon-container">
+                                <a href="#" class="link">
+                                    <img src="images/footer/logo/fb.svg" alt="Facebook" class="footer__social-icon">
+                                </a>
+                            </div>
+                            <div class="socials-container__icon-container">
+                                <a href="#" class="link">
+                                    <img src="images/footer/logo/vk.svg" alt="VKontakte" class="footer__social-icon">
+                                </a>
+                            </div>
+                            <div class="socials-container__icon-container">
+                                <a href="#" class="link">
+                                    <img src="images/footer/logo/im.svg" alt="Instagramm" class="footer__social-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer__menu-block footer-menu-block display_flex justify_between flex-wrap_nowrap">
+                    <div class="footer-menu-block__menu-container">
+                        <div class="menu-container__menu-title">
+                            <p>Обучение</p>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Курсы</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Вебинары</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Тренажеры</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Воркшопы</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu-block__menu-container">
+                        <div class="menu-container__menu-title">
+                            <p>О нас</p>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">О платформе</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Преподаватели</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Тарифы</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Отзывы</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu-block__menu-container">
+                        <div class="menu-container__menu-title">
+                            <p>Контакты</p>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Связаться с нами</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Консультация</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Реквизиты</a>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <a href="#" class="menu-links__link link">Поддержка</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu-block__menu-container">
+                        <div class="menu-container__menu-title">
+                            <p>Возникли вопросы?</p>
+                        </div>
+                        <div class="menu-container__menu-links">
+                            <p>
+                                Напишите нам на почту<br>
+                                <a href="mailto:education@ementor.info" class="menu-links__link link text-decoration_underline">education@ementor.info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-block_bottom container">
+            <div class="footer__row-container row-container display_flex flex-wrap_wrap justify_between">
+                <div class="row-container__content-container content-container_left">
+                    <div class="content">
+                        <p class="text_description">
+                            E-Mentor © 2021 Все права защищены
+                        </p>
+                    </div>
+                </div>
+                <div class="row-container__content-container">
+                    <div class="content__link display_inline">
+                        <a class="text_description">
+                            Политика обработки персональных данных
+                        </a>
+                    </div>
+                    <div class="content__link display_inline">
+                        <a class="text_description">
+                            Публичная оферта
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
